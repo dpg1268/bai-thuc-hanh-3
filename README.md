@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -40,5 +39,6 @@
 <h2> Bài thực hành của Phong và Khôi</h2>
 </body>
 </html>
+
 
 
