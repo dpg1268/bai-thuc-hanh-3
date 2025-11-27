@@ -81,6 +81,11 @@
       padding:10px;
       border-radius:6px;
       box-shadow:0 1px 3px rgba(0,0,0,0.06);
+         border: 4px solid transparent;
+      background: 
+        linear-gradient(white, white) padding-box,
+        linear-gradient(90deg, #ff7a18, #af002d, #319197) border-box;
+      font-weight: bold;
     }
     .sidebar .item{
       display:flex;
@@ -88,11 +93,6 @@
       padding:10px 8px;
       border-bottom:1px solid #eee;
       align-items:flex-start;
-      border: 3px solid transparent;
-      background: 
-        linear-gradient(white, white) padding-box,
-        linear-gradient(90deg, #ff7a18, #af002d, #319197) border-box;
-      font-weight: bold;
     }
     .sidebar .item:last-child{border-bottom:0}
     .checkbox{
@@ -158,6 +158,7 @@
     </div>
     </div>
 <footer style="text-align: center;">Thiết kế Website: <b>Phong – Khôi</b></footer>
+
 
 
 
