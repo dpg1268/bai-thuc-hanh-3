@@ -9,7 +9,6 @@
              padding:16px;
              border: 15px;
         }
-        }
             .img {
                 width:100%;
                 height:100%;
@@ -22,9 +21,7 @@
                 border: 3px solid black;
                 padding: 8px;
                 border-radius: 8px;
-
         }
-    
     .topbar{
       background:#0d74b8;
       color:#fff;
@@ -38,19 +35,16 @@
       width:26px;height:18px;display:inline-block;
     }
     .hamburger span{display:block;height:3px;background:#fff;margin:3px 0;border-radius:2px}
-
     .topbar h1{
       font-size:18px;
       letter-spacing:0.5px;
     }
-
     .layout{
       display:grid;
-      grid-template-columns: 1fr 320px;
+      grid-template-columns: 1fr fit-content(320px);
       gap:24px;
       margin-top:18px;
     }
-
     .main{
       background:#fff;
       padding:12px;
@@ -65,14 +59,12 @@
       background:#eee;
     }
     .hero img{width:100%;height:100%;object-fit:cover;display:block}
-
     .title{
       color:green;
       font-weight:700;
       font-size:20px;
       margin:14px 0 8px;
     }
-
     .meta{
       display:flex;
       gap:12px;
@@ -83,9 +75,7 @@
     }
     .meta .author{display:flex;align-items:center;gap:6px}
     .meta .author i{width:14px;height:14px;background: #f6a623;border-radius:50%;display:inline-block}
-
     .excerpt{color:#444;line-height:1.6;font-size:15px; font-weight: bold;}
-
     .sidebar{
       background:#fff;
       padding:10px;
@@ -98,6 +88,11 @@
       padding:10px 8px;
       border-bottom:1px solid #eee;
       align-items:flex-start;
+      border: 3px solid transparent;
+      background: 
+        linear-gradient(white, white) padding-box,
+        linear-gradient(90deg, #ff7a18, #af002d, #319197) border-box;
+      font-weight: bold;
     }
     .sidebar .item:last-child{border-bottom:0}
     .checkbox{
@@ -113,7 +108,6 @@
     }
     .item a{color:#0b72b1;font-size:14px;font-weight:600;border: 15px;}
     .item a:hover{text-decoration:underline}
-
     @media (max-width:880px){
       .layout{grid-template-columns:1fr;gap:12px}
       .hero{height:180px}
@@ -127,7 +121,6 @@
       color:#111;
       line-height:1.4;
     }
-
     </style>
 </head>
 <body>
@@ -160,10 +153,13 @@
         <div class="item"><span class="checkbox" aria-hidden="true"></span><a href="https://c3easup.daklak.edu.vn/sinh-hoat-duoi-co-tuan-13-truong-thpt-ea-sup.html">SINH HOẠT DƯỚI CỜ TUẦN 13 – TRƯỜNG THPT EA SÚP</a></div>
         <div class="item"><span class="checkbox"></span><a href="https://c3easup.daklak.edu.vn/doan-vien-thanh-nien-truong-thpt-ea-sup-tham-gia-ngay-chu-nhat-xanh-lan-thu-viii.html">ĐOÀN VIÊN THANH NIÊN TRƯỜNG THPT EA SÚP THAM GIA NGÀY CHỦ NHẬT XANH</a></div>
         <div class="item"><span class="checkbox"></span><a href="https://c3easup.daklak.edu.vn/tang-cuong-kiem-tra-co-so-vat-chat-trong-thoi-diem-mua-lon.html">TĂNG CƯỜNG KIỂM TRA CƠ SỞ VẬT CHẤT TRONG THỜI ĐIỂM MƯA LỚN</a></div>
+                <div class="item"><span class="checkbox"></span><a href="https://c3easup.daklak.edu.vn/ke-hoach-ung-pho-voi-mua-lon-lu-ngap-lut-truong-thpt-ea-sup-nam-hoc-2025-2026.html">KẾ HOẠCH ỨNG PHÓ VỚI MƯA LỚN, LŨ NGẬP, LỤT NĂM HỌC 2025-2026</a></div>
+        <div class="item"><span class="checkbox"></span><a href="https://c3easup.daklak.edu.vn/ke-hoach-trien-khai-nhiem-vu-phan-cong-thanh-vien-to-tu-van-hoc-duong-va-cong-tac-xa-hoi-nam-hoc-2025-2026.html">KẾ HOẠCH TRIỂN KHAI PHÂN CÔNG TƯ VẤN HỌC ĐƯỜNG VÀ CÔNG TÁC XÃ HỘI</a></div>
       </aside>
     </div>
     </div>
 <footer style="text-align: center;">Thiết kế Website: <b>Phong – Khôi</b></footer>
+
 
 
 
