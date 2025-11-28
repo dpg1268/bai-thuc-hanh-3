@@ -135,6 +135,8 @@
     </style>
 </head>
 <body>
+    <div style="text-align: center;">
+  <img src="https://c3easup.daklak.edu.vn/wp-content/uploads/banner-easup.png" width="1480" height="auto" style="text-align: center;">
    <div class="container">
     <div class="topbar" role="banner">
       <div class="hamburger" aria-hidden="true">
@@ -172,6 +174,7 @@
     </div>
     </div>
 <footer style="text-align: center;">Thiết kế Website: <b>Phong – Khôi</b></footer>
+
 
 
 
