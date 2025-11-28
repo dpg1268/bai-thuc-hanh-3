@@ -142,7 +142,7 @@
             <div style="background-color: #f0f0f0; border: 1px solid #ccc; padding: 5px;">
     <marquee behavior="scroll" direction="left" scrollamount="5">
         <span style="color: red; font-weight: bold; font-size: 18px;">
-            🎉 CHÀO MỪNG NGÀY NHÀ GIÁO VIỆT NAM 20/11 🎉
+            chào mừng ngày Phụ nữ Việt Nam 20/10
         </span>
     </marquee>
 </div>
@@ -183,3 +183,4 @@
     </div>
     </div>
 <footer style="text-align: center;">Thiết kế Website: <b>Phong – Khôi</b></footer>
+
